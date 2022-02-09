@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "luminance_block_entities",
+    "version": "${version}",
+    "name": "Luminance Block Entities",
+    "description": "Get the ultimate control over lighting. BlockEntities can directly update light levels in the world with this API.",
+    "authors": [
+      "NoNumberMan",
+      "Twitch chat"
+    ],
+    "contact": {
+      "homepage": "https://www.nonumberstudios.com"
+    },
+    "license": "MIT",
+    "icon": "assets/luminance_block_entities/luminance_block_entities_icon.png",
+    "environment": "*",
+    "entrypoints": {
+      "main": [
+        "com.nonumberstudios.luminance_block_entities.LuminanceBlockEntitiesMod"
+      ]
+    },
+    "mixins": [
+		"luminance_block_entities.mixins.json"
+    ],
+    "depends": {
+      "fabricloader": ">=0.11.3",
+      "fabric": "*",
+      "minecraft": "1.18.x",
+      "java": ">=17"
+    },
+    "suggests": {
+      "another-mod": "*"
+    }
+}
+

@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nonumberstudios.luminance_block_entities.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "WorldChunkMixin",
+    "BlockModelRendererMixin",
+    "BlockViewMixin",
+    "WorldRendererMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
